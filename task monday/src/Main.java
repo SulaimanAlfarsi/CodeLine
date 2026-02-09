@@ -180,14 +180,32 @@ public class Main {
 
 
 
+        // 1 Step Up – Staircase (#) (for loop)
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("#".repeat(i));
+        }
 
 
 
 
+        // Grid Guru – 5×5 Star Matrix (while loop)
 
+        int row1 = 1;
 
+        while (row1 <= 5) {
+            int col = 1;
 
+            while (col <= 5) {
+                System.out.print("# ");
+                col++;
+            }
 
+            System.out.println();
+            row1++;
+        }
+
+        // Pyramid Power – The Star Mountain (for loop)
 
 
 
