@@ -48,7 +48,150 @@ public class Main {
         System.out.println(" *******");
         System.out.println("*********");
 
-        
+        // Calendar Commander: The Weekly Header
+
+        // Days of the week
+        String days = "Mon\tTue\tWed\tThu\tFri\tSat\tSun";
+
+        String frame = "=".repeat(days.length()+ 5);
+
+        // Print the calendar header
+        System.out.println(frame);
+        System.out.println("  " + days);
+        System.out.println(frame);
+
+        // Starry Right: The Aligned Triangle
+
+        int rows = 5;
+
+
+        System.out.println(" ".repeat(4) + "*");
+        System.out.println(" ".repeat(3) + "*".repeat(2));
+        System.out.println(" ".repeat(2) + "*".repeat(3));
+        System.out.println(" ".repeat(1) + "*".repeat(4));
+        System.out.println(" ".repeat(0) + "*".repeat(5));
+
+        // Receipt Ready: c
+
+        String headerLine = "=".repeat(40);
+        String dividerLine = "-".repeat(40);
+
+        System.out.println(headerLine);
+        System.out.println("\tSTORE RECEIPT");
+        System.out.println(headerLine);
+
+        // Column titles
+        System.out.printf("%-10s\t%-10s%n", "Item", "Price");
+        System.out.println(dividerLine);
+
+        // Items
+        System.out.printf("%-10s\t$%-10.2f%n", "Apple", 1.50);
+        System.out.printf("%-10s\t$%-10.2f%n", "Banana", 0.75);
+        System.out.printf("%-10s\t$%-10.2f%n", "Orange", 2.00);
+
+        System.out.println(dividerLine);
+
+        // Total
+        System.out.printf("%-10s\t$%-10.2f%n", "Total:", 4.25);
+        System.out.println(headerLine);
+
+        // Step Up: The Staircase Challenge
+
+        int steps = 5;
+
+        System.out.println("#".repeat(1));
+        System.out.println("#".repeat(2));
+        System.out.println("#".repeat(3));
+        System.out.println("#".repeat(4));
+        System.out.println("#".repeat(5));
+
+        // Framed Focus: Message in a Star Frame
+
+        System.out.println("*".repeat(20));
+        System.out.println("*                  *");
+        System.out.println("*  \"Keep Learning\" *");
+        System.out.println("*                  *");
+        System.out.println("*".repeat(20));
+
+        // Grid Guru: The 5x5 Star Matrix
+
+        int size = 5;
+
+        String row = ("* ".repeat(size)).trim();
+
+        System.out.println(row);
+        System.out.println(row);
+        System.out.println(row);
+        System.out.println(row);
+        System.out.println(row);
+
+        // Equals Express: The Long Separator
+
+        System.out.println("=".repeat(50));
+
+        // : Section Separator
+
+        String separator = "-".repeat(20);
+
+        System.out.println("Section 1: Introduction");
+        System.out.println(separator);
+
+        System.out.println("Section 2: Methods");
+        System.out.println(separator);
+
+        System.out.println("Section 3: Conclusion");
+        System.out.println(separator);
+
+        // Multiplication Marvel: Table Header
+
+        String topBottomLine = "=".repeat(40);
+        String separatorLine = "-".repeat(40);
+
+        String numbers = String.join("\t", "1","2","3","4","5","6","7","8","9","10");
+
+        System.out.println(topBottomLine);
+        System.out.println("\tMULTIPLICATION TABLE");
+        System.out.println(topBottomLine);
+        System.out.println(numbers);
+        System.out.println(separatorLine);
+
+
+        // Number Ladder: The Climbing Count
+
+        System.out.println("1");
+        System.out.println("1\t2");
+        System.out.println("1\t2\t3");
+        System.out.println("1\t2\t3\t4");
+        System.out.println("1\t2\t3\t4\t5");
+
+        // Quoteception: The Nested Quotation
+
+        System.out.println("The article states: \"The programmer said, \\\"Code is poetry,\\\" and smiled.\"");
+
+        // Echoes of Wisdom: The Quoted Message
+
+        System.out.println("He said, \"Practice makes perfect!\"");
+
+        // Tabular Talents: Student Info Showcase
+
+        System.out.println("Name\tAge\tGrade");
+        System.out.println("John\t20\tA");
+        System.out.println("Sarah\t22\tB");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
